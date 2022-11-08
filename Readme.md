@@ -1,5 +1,5 @@
 > Initial steps
-* source new-env/bin/activate 
+* source envfraskDock/bin/activate 
 * python view.py
 
 > Docker steps 
@@ -23,4 +23,8 @@
 * from app.models import User, Post
 * db.drop_all()
 * db.create_all()
+
+u = User(username='john', email='john@example.com')
+db.session.add(u)
+db.session.commit()
 
