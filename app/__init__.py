@@ -5,6 +5,7 @@ from flask_login import LoginManager
 from config import Config
 import os
 
+
 template_dir = os.path.abspath('app/template')
 
 app = Flask(__name__,template_folder=template_dir)

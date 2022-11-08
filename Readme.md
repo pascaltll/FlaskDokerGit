@@ -11,3 +11,16 @@
 * docker ps
 * docker stopp
 * http://localhost:5001
+
+> data base mangment
+* flask db init
+* flask db migrate -m "users table"
+* flask db upgrade
+* flask db migrate -m "posts table"
+
+> flask shell
+* from app import db
+* from app.models import User, Post
+* db.drop_all()
+* db.create_all()
+
